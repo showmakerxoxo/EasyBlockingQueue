@@ -4,7 +4,7 @@ set(PROJECT_NAME "EasyBlockingQueue")
 project(${PROJECT_NAME} VERSION 0.1.0 LANGUAGES CXX)
 
 option(BUILD_EXAMPLE "build example" ON)
-option(BUILD_TESTS "build tests" OFF)
+option(BUILD_TESTS "build tests" ON)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
